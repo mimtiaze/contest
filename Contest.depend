@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1509030460 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/CF.cpp
+	<cstdio>
+	<string>
+	<cstring>
+	<iostream>
+	<vector>
+	<cstdlib>
+	<cmath>
+	<algorithm>
+	<stack>
+	<sstream>
+	<queue>
+	<climits>
+	<map>
+	<set>
+	<cassert>
+	<numeric>
+
+1509033330 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/CF 443 - B. Table Tennis.cpp
+	<cstdio>
+	<string>
+	<cstring>
+	<iostream>
+	<vector>
+	<cstdlib>
+	<cmath>
+	<algorithm>
+	<stack>
+	<sstream>
+	<queue>
+	<climits>
+	<map>
+	<set>
+	<cassert>
+	<numeric>
+
+1509116857 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/CF educational 31 - A. Book Reading.cpp
+	<bits/stdc++.h>
+
+1509777392 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/CF 444 - A. DIv 64.cpp
+	<cstdio>
+	<string>
+	<cstring>
+	<iostream>
+	<vector>
+	<cstdlib>
+	<cmath>
+	<algorithm>
+	<stack>
+	<sstream>
+	<queue>
+	<climits>
+	<map>
+	<set>
+	<cassert>
+	<numeric>
+
+1509782711 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/CF 444 - B. Cubes for Masha.cpp
+	<cstdio>
+	<string>
+	<cstring>
+	<iostream>
+	<vector>
+	<cstdlib>
+	<cmath>
+	<algorithm>
+	<stack>
+	<sstream>
+	<queue>
+	<climits>
+	<map>
+	<set>
+	<cassert>
+	<numeric>
+
+1510930672 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/fork.cpp
+	<cstdio>
+	<string>
+	<cstring>
+	<iostream>
+	<vector>
+	<cstdlib>
+	<cmath>
+	<algorithm>
+	<stack>
+	<sstream>
+	<queue>
+	<climits>
+	<map>
+	<set>
+	<cassert>
+	<numeric>
+
+1510930672 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/CF 446 - A. Greed.cpp
+	<cstdio>
+	<string>
+	<cstring>
+	<iostream>
+	<vector>
+	<cstdlib>
+	<cmath>
+	<algorithm>
+	<stack>
+	<sstream>
+	<queue>
+	<climits>
+	<map>
+	<set>
+	<cassert>
+	<numeric>
+
+1512184954 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/ACM archive 6405 - The Large Family.cpp
+	<bits/stdc++.h>
+
+1512225083 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/CF 449 - A. Scarborough Fair.cpp
+	<bits/stdc++.h>
+
+1512227568 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/generating even length palindrome number.cpp
+	<bits/stdc++.h>
+
+1512228045 source:/home/mimtiaze/Maruf/CodeBlocks/Contest/CF 449 B.cpp
+	<bits/stdc++.h>
+
