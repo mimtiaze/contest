@@ -45,6 +45,13 @@ std::string NumberToString ( T Number )
     return ss.str();
 }
 
+long long int StringToNumber ( string Text )
+{
+	stringstream ss(Text);
+	long long int result;
+	return ss >> result ? result : 0;
+}
+
 template <typename T>
 T StringToNumber ( const string &Text )//Text not by const reference so that the function can be used with a
 {                               //character array as argument
@@ -54,12 +61,7 @@ T StringToNumber ( const string &Text )//Text not by const reference so that the
 }
 
 
-long long int StringToNumber ( string Text )
-{
-	stringstream ss(Text);
-	long long int result;
-	return ss >> result ? result : 0;
-}
+
 
 vector<string> splitingWord(const string &s, char delim) {
     stringstream ss(s);
@@ -81,17 +83,20 @@ int main(){
 
 
 
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
 #define FOR(n)          for(int i=0; i<(int)(n); ++i)
 #define FORI(i, s, n)   for(int i=(int)(s); i<(int)(n); ++i)
+#define F0RIJ(i, a)     for(int i=0; i<(int)(a); i++)
 #define FORP(x)         for(__typeof__((x).begin()) it=(x).begin(); it!=(x).end(); ++it)
 
 #define all(V)          V.begin(),V.end()
 #define FF              first
 #define SS              second
-#define sz(V)           ((int) (V).size())
+//#define sz(V)           ((int) (V).size())
 #define pb              push_back
 #define pii             pair<int, int>
 #define ll              long long
@@ -120,15 +125,36 @@ struct debugger {
         call(++it, ed, rest...);
     }
 };
-/***********************************************************************/
-
 
 
 int main()
 {
+    sync;
 
     return 0;
 }
+
+
+int main()
+{
+    sync;
+    int t,test=1;
+    cin >> t;
+    while(t--)
+    {
+
+
+
+
+        cout << "Case " << test++ << ": " << endl;
+    }
+
+    return 0;
+}
+
+
+
+
 
 
 
