@@ -54,7 +54,7 @@ int main() {
   for (int i = 1; i <= n; ++i) scanf("%d", &num[i]);
 
   build(1,1,n);
-  //modify(5, 10);
+  updatte(1,1,n,5,10);
   printf("%d\n", query(1,1,n,1,5));
   return 0;
 }
