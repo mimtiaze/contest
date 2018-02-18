@@ -15,6 +15,7 @@
 #include<cassert>
 #include<numeric>
 
+
 #define pb push_back
 #define sz size()
 #define lg length()
@@ -100,19 +101,25 @@ using namespace std;
 #define pb              push_back
 #define pii             pair<int, int>
 #define ll              long long
+#define sz              size()
 #define ull             unsigned long long
 #define mem(A)          memset(A, 0, sizeof(A))
 #define lg              length()
-#define sz              size()
 
 #define all(V)          V.begin(),V.end()
 #define clr(A,B)        memset(A,B,sizeof A)
 
 #define input           freopen("input.txt", "r", stdin);
-#define sync            {ios_base::sync_with_stdio(false);cin.tie(NULL);}
+#define output          freopen("output.txt", "w", stdout);
+#define sync            ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 #define dbg(args...)    {string sss(#args);sss+=',';cout<<"-->";debugger::call(all(sss), args);cout<<"\n";}
 #define dbgA(A, n)      {cout<<"-->"<<#A<<"=(";FOR(n)cout<<A[i]<<" ";cout<<")\n";}
 #define dbgA2(A, n, m)  {cout<<"-->"<<#A<<"=\n";FOR(n){FORI(j, 0, m){cout<<A[i][j]<<" ";}cout<<"\n";}cout<<"\n";}
+
+#define yes cout<<"Yes"<<endl;
+#define no cout<<"No"<<endl;
+
+#define dt ll
 
 struct debugger {
     typedef string::iterator si;
@@ -126,6 +133,16 @@ struct debugger {
     }
 };
 
+vector<dt> takeInput(dt n){
+    vector<dt> v;
+    for(dt i=0;i<n;i++){
+        dt temp;
+        cin >> temp;
+        v.push_back(temp);
+    }
+    return v;
+}
+
 
 int main()
 {
@@ -133,6 +150,7 @@ int main()
 
     return 0;
 }
+
 
 
 
