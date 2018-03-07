@@ -46,10 +46,10 @@ std::string NumberToString ( T Number )
     return ss.str();
 }
 
-long long int StringToNumber ( string Text )
+dt StringToNumber ( string Text )
 {
 	stringstream ss(Text);
-	long long int result;
+	dt result;
 	return ss >> result ? result : 0;
 }
 
@@ -81,6 +81,7 @@ int main(){
 
 	return 0;
 }
+
 
 
 
