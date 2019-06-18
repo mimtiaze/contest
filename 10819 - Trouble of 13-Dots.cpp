@@ -29,8 +29,8 @@ int solve(int i,int spent){
 
 int main(){
 
-	/*freopen("input.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);*/
+	freopen("input.txt", "r", stdin);
+	/*freopen("out.txt", "w", stdout);*/
 	clock_t time_req;
 	float tt = -100;
 	while ((scanf("%d %d",&budget,&n))==2){
